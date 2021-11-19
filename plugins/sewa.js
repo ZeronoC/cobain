@@ -41,7 +41,7 @@ OVO: 082146176911
        }
     conn.sendMessage(m.chat, button, MessageType.listMessage, { quoted: m })
 }
-handler.tags = ['main', 'update']
+handler.tags = ['shop']
 handler.command = /^(sewa(bot)?)$/i
 handler.help = ['sewa']
 module.exports = handler
