@@ -36,13 +36,10 @@ handler.all = async function (m, { isBlocked }) {
 ┃ *⸙ Agar bot stay lebih lama
 ┃ *⸙ Sewa bot dengan harga di bawah 
 ┃ *⸙ ુོ➪ Info harga sewa bot
-┃ *〲 Rp. 5k = 1 minggu Premium
-┃ *〲 Rp. 7k = 2 minggu Premium
-┃ *〲 Rp. 10k = 1 bulan Premium
-┃ *〲 Rp. 20k = 2 bulan Premium
-┃ *〲 Rp. 30k = 3 bulan Premium
-┃ *〲 Rp. 40k = 4 bulan Premium
-┃ *〲 Rp. 50k = VIP PERMANEN
+┃ *〲 Rp. 7k = Sewa Bot 1 Minggu
+┃ *〲 Rp. 10k = Sewa Bot 1 Bulan
+┃ *〲 Rp. 15k = Sewa Bot Permanen
+┃ *〲 Rp. 20k = VIP PERMANEN (PREMIUM)
 ┃ 
 ╰•°°°🕊°°°°°🕊°°°°°°🕊°°°°°°°°
 `.trim(), watermark, 'Pemilik Bot', ',owner', 'Cara memasukkan bot', '.panduanadd', m)
