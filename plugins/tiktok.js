@@ -5,7 +5,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     if (!args[0]) throw `uhm.. urlnya mana?\n\ncontoh:\n${usedPrefix + command} https://vt.tiktok.com/ZGJBtcsDq/`
     if (!regex.test(args[0])) throw 'url salah'
 
-    let json = await tiktok2(args[0].match(regex)[0].split(/\n| /i)[0]).then(async res => {
+    let json = await tiktok(args[0].match(regex)[0].split(/\n| /i)[0]).then(async res => {
         let data = JSON.stringify(res)
         let json = JSON.parse(data)
         return json
@@ -18,7 +18,7 @@ handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 handler.command = /^(tiktok)$/i
 
-handler.limit = 1
+handler.limit = 10
 
 module.exports = handler
 
@@ -26,7 +26,7 @@ function numbFormat(int) {
     return Number(parseInt(int)).toLocaleString().replace(',', '.')
 }
 
-function tiktok2(url) {
+function tiktok(url) {
     let config = {
         headers: {
             'Accept': '*',
