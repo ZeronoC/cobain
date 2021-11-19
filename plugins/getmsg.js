@@ -16,7 +16,7 @@ let handler = async (m, { conn, command, usedPrefix, text }) => {
         return v
     }))
     // m.reply(`[debug]\n${require('util').format(_m)}`)
-    conn.copyNForward(m.chat, _m, false)
+    this.copyNForward(m.chat, m, false)
 }
 handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker', 'gif'].map(v => 'get' + v + ' <teks>')
 handler.tags = ['database']
