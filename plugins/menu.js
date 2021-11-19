@@ -127,7 +127,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'update': 'Update'
   }
   if (teks == 'shop') tags = {
-    'shop': 'Shop
+    'shop': 'Shop' //gc opicial nya di apus banh 🗿
   }
   if (teks == 'owner') tags = {
     'owner': 'Owner',
@@ -300,7 +300,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
           ], "contextInfo": {
             "stanzaId": m.key.id,
             //"remoteJid": "status@broadcast",
-            "participant": m.sender, //'628881212888@s.whatsapp.net',
+            "participant": m.sender, //'6285346545126@s.whatsapp.net',
             "quotedMessage": m.message //{ conversation: 'List Menu Bot' }
           }
         }
