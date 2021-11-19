@@ -10,7 +10,7 @@ let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, await (awa
 ⁙┃ ુོ GOPAY : tanya ke owner
 ⁙┃ ુོ PULSA : 6289621278920
 ⁙┃ ુོ saweria.co/mrzee78
-⁙┃ ુོ trakteer.id/mr zee/tip
+⁙┃ ુོ trakteer.id/mr.zee/tip
 ⁙┃ ુོ
 ⁙┃ *⸙ ુོ➪ *INSTAGRAM OWNER*
 ⁙┃ ુོ instagram.com/yrdan_21
