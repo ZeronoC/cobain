@@ -18,7 +18,7 @@ handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 handler.command = /^(tiktok|tt|ttdl)$/i
 
-handler.limit = 10
+handler.limit = 1
 
 module.exports = handler
 
