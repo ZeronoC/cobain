@@ -34,11 +34,12 @@ ${'```%npmdesc```'}
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'game', 'xp', 'stiker', 'kerangajaib', 'quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'vote', 'quran', 'audio', 'jadibot', 'info', 'update', 'shop', 'owner']
+  let arrayMenu = ['all', 'game', 'rpg', 'xp', 'stiker', 'kerangajaib', 'quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'vote', 'quran', 'audio', 'jadibot', 'info', 'update', 'shop', 'owner']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
     'main': 'Utama',
     'game': 'Game',
+    'rpg': 'RPG',
     'xp': 'Exp & Limit',
     'sticker': 'Stiker',
     'kerang': 'Kerang Ajaib',
@@ -64,6 +65,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   }
   if (teks == 'game') tags = {
     'game': 'Game'
+  }
+  if (teks == 'rpg') tags = {
+    'rpg': 'RPG'
   }
   if (teks == 'xp') tags = {
     'xp': 'Exp & Limit'
@@ -206,6 +210,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "title": "Game",
                   "description": "",
                   "rowId": ".? game"
+                }, {
+                  "title": "RPG",
+                  "description": "",
+                  "rowId": ".? rpg"
                 }, {
                   "title": "XP",
                   "description": "",
