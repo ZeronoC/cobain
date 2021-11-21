@@ -3,7 +3,7 @@ let handler = async (m, { usedPrefix, conn }) => await conn.sendButtonLoc(m.chat
 *"Cara menambahkan bot ke group"*
 
 Cara menambahkan bot ke dalam group. 
-Lucu bot memberlakukan trial gratis, 
+Zee bot memberlakukan trial gratis, 
 Ada 3 opsi setiap opsi memiliki limit hingga 10 limit terpakai
 
 1. ${usedPrefix}join5 linkgrup 5jam (usrr) 
