@@ -24,7 +24,7 @@ M.BULANAN = 136.500
 ❗SERTAKAN BUKTI TRANSFER
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['viaid']
-handler.tags = ['shop']
+handler.tags = ['store']
 handler.command = /^(viaid|ffid)$/i
 
 handler.limit = false
