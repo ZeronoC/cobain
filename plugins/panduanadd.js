@@ -12,7 +12,7 @@ Ada 3 opsi setiap opsi memiliki limit hingga 10 limit terpakai
 
 Setelah waktu habis maka bot akan keluar dari group. 
 Untuk join Permanent silahkan ketik *${usedPrefix}sewa*
-`.trim(), watermark, 'Ok Saya Mengerti', 'rasel comel+ganteng no debat ok su<3', m)
+`.trim(), watermark, 'Ok Saya Mengerti', 'siap bg', m)
 handler.command = /^join/i
 
 module.exports = handler
