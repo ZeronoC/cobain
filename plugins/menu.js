@@ -34,7 +34,7 @@ ${'```%npmdesc```'}
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'game', 'rpg', 'xp', 'stiker', 'kerangajaib', 'quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'vote', 'quran', 'audio', 'jadibot', 'info', 'update', 'shop', 'owner']
+  let arrayMenu = ['all', 'game', 'rpg', 'xp', 'stiker', 'kerangajaib', 'quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'vote', 'quran', 'audio', 'jadibot', 'info', 'update', 'store', 'owner']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
     'main': 'Utama',
@@ -61,7 +61,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'jadibot': 'Jadi Bot',
     'info': 'Info',
     'update': 'Update',
-    'shop': 'Shop',
+    'storegame': 'Store Game',
   }
   if (teks == 'game') tags = {
     'game': 'Game'
@@ -130,8 +130,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   if (teks == 'update') tags = {
     'update': 'Update'
   }
-  if (teks == 'shop') tags = {
-    'shop': 'Shop' //gc opicial nya di apus banh 🗿
+  if (teks == 'store') tags = {
+    'store': 'Store Game' //gc opicial nya di apus banh 🗿
   }
   if (teks == 'owner') tags = {
     'owner': 'Owner',
@@ -295,9 +295,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "",
                   "rowId": ".? update"
                 }, {
-                  "title": "Shop",
+                  "title": "Store Game",
                   "description": "",
-                  "rowId": ".? shop"
+                  "rowId": ".? store"
                 }, {
                   "title": "Owner",
                   "description": "",
