@@ -16,6 +16,6 @@ let handler = async(m, { conn }) => {
     conn.sendMessage(m.chat, button, MessageType.listMessage, { quoted: m })
 }
 handler.tags = ['store']
-handler.command = /^(shop)?)$/i
+handler.command = /^(shop)$/i
 handler.help = ['shop']
 module.exports = handler
