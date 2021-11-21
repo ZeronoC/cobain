@@ -1,0 +1,30 @@
+let fetch = require('node-fetch')
+let { MessageType } = require('@adiwajshing/baileys')
+let handler = async(m, { conn }) => {
+    let kontol = `Silahkan Pilih Dibawah
+    `.trim()
+    const button = {
+        buttonText: 'List Harga',
+        description: kontol,
+        sections:  [{title: "Silahkan di pilih 😇", rows: [
+        {title: 'FF Via ID', description: "", rowId:".viaid"},
+        {title: 'FF Flash Sale', description: "", rowId:".idfs"},
+        {title: 'FF Via Login', description: "", rowId:".vlg"},
+        {title: 'Mobile Legends', description: "", rowId:".ml"},
+        {title: 'PUBGM', description: "", rowId:".PUBGM"},
+        {title: 'Genshin Impact', description: "", rowId:".genshin"},
+        {title: 'CODM', description: "", rowId:".codm"},
+        {title: 'Zepeto', description: "", rowId:".zepeto"},
+        {title: 'Garena Shell', description: "", rowId:".gs"},
+        {title: 'Jasa Followers', description: "", rowId:".jf"},
+        {title: 'Gift Stars FB', description: "", rowId:".starsfb"},
+        {title: 'Grup Official Store', description: "", rowId:".gcstore"},
+       ] }],
+        listType: 1
+       }
+    conn.sendMessage(m.chat, button, MessageType.listMessage, { quoted: m })
+}
+handler.tags = ['shop']
+handler.command = /^(store)$/i
+handler.help = ['store']
+module.exports = handler 
