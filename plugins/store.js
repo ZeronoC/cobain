@@ -11,7 +11,7 @@ let handler = async(m, { conn }) => {
         {title: 'FF Flash Sale', description: "", rowId:".idfs"},
         {title: 'FF Via Login', description: "", rowId:".vlg"},
         {title: 'Mobile Legends', description: "", rowId:".ml"},
-        {title: 'PUBGM', description: "", rowId:".PUBGM"},
+        {title: 'PUBGM', description: "", rowId:".pubg"},
         {title: 'Genshin Impact', description: "", rowId:".genshin"},
         {title: 'CODM', description: "", rowId:".codm"},
         {title: 'Zepeto', description: "", rowId:".zepeto"},
