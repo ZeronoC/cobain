@@ -1,6 +1,6 @@
 let handler = async m => m.reply(`
 *LIST HARGA PUBG VIA ID*
-*_RATE 0.89_
+*_RATE 0.89_*
 
 50+2 UC = 8.900
 60+2 UC = 10.680
@@ -16,9 +16,9 @@ let handler = async m => m.reply(`
 *PROSES 1-30 MENIT*
 ❗SERTAKAN BUKTI TRANSFER
 `.trim()) // Tambah sendiri kalo mau
-handler.help = ['pubg']
+handler.help = ['pubgm']
 handler.tags = ['store']
-handler.command = /^(pubg)$/i
+handler.command = /^(pubgm)$/i
 
 handler.limit = false
 
