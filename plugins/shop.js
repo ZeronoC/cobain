@@ -1,30 +1,7 @@
 let fetch = require('node-fetch')
 let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
-    let kontol = `*SEWA BOT*
-
-*Free User:* 
-  Unlimited Limit: ❎
-  JadiBot: ❎
-  Masukin Bot ke Grup: ❎
- 
-*Premium User:*
-  Unlimited Limit: ✅
-  JadiBot: ✅
-  Masukin Bot ke Grup: ✅
----------------------------------------------------------
-*JASA RUN BOT RDP*
- 
-  Bot On 24Jam✅
-  EXP 30D🔋
-  SPECS RDP: 8GB RAM/2vCPU🖥️
----------------------------------------------------------
-*Pembayaran:*
-
-https://saweria.co/mrzee78
-Dana: 082146176911
-OVO: 082146176911
----------------------------------------------------------
+    let kontol = `Pilih List di Bawah
     `.trim()
     const button = {
         buttonText: 'List Harga',
