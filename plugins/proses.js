@@ -9,8 +9,8 @@ let handler = async m => m.reply(`
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['proses']
 handler.tags = ['store']
-handler.command = /^(proses)$/i
-
+handler.customPrefix = /^proses$/i
+handler.command = new RegExp
 handler.limit = false
 
 module.exports = handler
