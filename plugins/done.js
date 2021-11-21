@@ -9,7 +9,8 @@ let handler = async m => m.reply(`
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['done']
 handler.tags = ['store']
-handler.command = /^(done)$/i
+handler.customPrefix = /^done$/i
+handler.command = new RegExp
 
 handler.limit = false
 
