@@ -18,6 +18,7 @@ let handler = async(m, { conn }) => {
         {title: 'Garena Shell', description: "", rowId:".gs"},
         {title: 'Jasa Followers', description: "", rowId:".jf"},
         {title: 'Gift Stars FB', description: "", rowId:".starsfb"},
+        {title: 'Payment', description: "", rowId:".payment"},
         {title: 'Grup Official Store', description: "", rowId:".gcstore"},
        ] }],
         listType: 1
