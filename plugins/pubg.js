@@ -14,7 +14,7 @@ let handler = async m => m.reply(`
 
 
 *PROSES 1-30 MENIT*
-❗SERTAKAN BUKTI TRANSFER
+*❗SERTAKAN BUKTI TRANSFER*
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['pubgm']
 handler.tags = ['store']
