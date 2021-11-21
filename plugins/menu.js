@@ -211,10 +211,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "",
                   "rowId": ".? game"
                 }, {
-                  "title": "RPG",
-                  "description": "",
-                  "rowId": ".? rpg"
-                }, {
                   "title": "XP",
                   "description": "",
                   "rowId": ".? xp"
