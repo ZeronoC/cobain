@@ -6,6 +6,7 @@ let handler = async m => m.reply(`
 *Jangan Lupa Order Kembali Ya🤗*
 
 *© Lyra*
+Waktu: *%time*
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['done']
 handler.tags = ['store']
