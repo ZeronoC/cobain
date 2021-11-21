@@ -3,9 +3,9 @@ let handler = async m => m.reply(`
 *_RATE 12,4_*
 
 *Log Google Minimal 5$*
-**Log Fb / vk minim 2$*
+*Log Fb / vk minim 2$*
 *DATA KE [ 8114 ]*
-**WAJIB A2FON + KODE PEMULIHAN*
+*WAJIB A2FON + KODE PEMULIHAN*
 *GAK BAWA KODE? GK PROSES!!!*
 200 💎 (2$) = 24.800
 310 💎 (3$) = 37.200
@@ -27,7 +27,7 @@ let handler = async m => m.reply(`
 11.200 💎 (100$) = 1.240.000
 
 Mm (2$) : 24.800
-Mb (8$)  : 99.200
+Mb (11$)  : 136.400
 
 ___________________________
 
