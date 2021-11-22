@@ -40,7 +40,7 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = '©'
+global.packname = 'Hi'
 global.author = 'Zee'
 
 global.wait = '*Tunggu sebentar ya...*'
