@@ -11,6 +11,9 @@ handler.help = ['proses']
 handler.tags = ['store']
 handler.customPrefix = /^proses$/i
 handler.command = new RegExp
+
+handler.admin = true
+
 handler.limit = false
 
 module.exports = handler
