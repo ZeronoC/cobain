@@ -19,12 +19,12 @@
   "keywords": [
     "whatsapp-bot"
   ],
-  "author": "rasel ×͜×",
+  "author": "Yrdn",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ariffb25/stikerinbot/issues"
   },
-  "homepage": "https://chat.whatsapp.com/CUCsW6BWfmJLJwJgPQIaKM",
+  "homepage": "https://github.com/dzee22/LXZ",
   "dependencies": {
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
     "awesome-phonenumber": "^2.54.0",
