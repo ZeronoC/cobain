@@ -482,15 +482,15 @@ ketik *.on delete* untuk mematikan pesan ini
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: '_Hanya untuk owner list_',
-    owner: '_Lu mau ngapain?_',
-    mods: '_Lu user newbie, ini fitur cuma buat_ *Moderator*',
-    premium: '_Lu bukan user premium, daftar dulu sama ownerku, ketik_ *#uptoprem*',
-    group: '_Di grup aja, di pc mana bisa_\nhttps://chat.whatsapp.com/CUCsW6BWfmJLJwJgPQIaKM',
-    private: '_Pc gua aja_',
-    admin: '_Lu member mau ngapain?_',
-    botAdmin: '_Aku bukan admin kak_',
-    unreg: 'Daftar dulu ketik #daftar nama.umur*\n\ncontoh:#daftar rasel.18*',
+    rowner: 'Hanya untuk Owner*',
+    owner: 'Hanya untuk *Owner*',
+    mods: 'Hanya untuk *Moderator*',
+    premium: 'Hanya untuk member *Premium*',
+    group: 'Hanya bisa digunakan di *Group*',
+    private: 'Hanya bisa digunakan di *Private Chat*',
+    admin: 'Hanya untuk *Admin*',
+    botAdmin: 'Bot bukan *Admin*',
+    unreg: 'Daftar dulu ketik #daftar nama.umur*\n\ncontoh:#daftar Yrdn.18*',
     nsfw: 'NSFW tidak aktif'
   }[type]
   if (msg) return m.reply(msg)
