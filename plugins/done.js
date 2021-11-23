@@ -12,6 +12,8 @@ handler.tags = ['store']
 handler.customPrefix = /^done$/i
 handler.command = new RegExp
 
+handler.admin = true
+
 handler.limit = false
 
 module.exports = handler
