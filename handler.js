@@ -410,7 +410,7 @@ module.exports = {
                 .setAvatar(pp)
                 .setBackground("https://i.ibb.co/KhtRxwZ/dark.png")
                 .toAttachment()
-              this.send2ButtonLoc(jid, action === 'add' ?wel.toBuffer() : lea.toBuffer(), text, watermark, 'Menu', '#menu', 'Welcome', 'rasel comel+ganteng no debat', null, {
+              this.sendButtonLoc(jid, action === 'add' ?wel.toBuffer() : lea.toBuffer(), text, watermark, 'Menu', '.menu', null, {
                 contextInfo: {
                   mentionedJid: [user]
                 }
