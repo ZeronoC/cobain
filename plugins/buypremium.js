@@ -1,5 +1,6 @@
 let handler = async m => m.reply(`
 *HARAP DIISI JIKA INGIN MENDAFTARKAN MEMBER PREMIUM*
+
 Nama: 
 No HP: 
 Pembayaran: 
