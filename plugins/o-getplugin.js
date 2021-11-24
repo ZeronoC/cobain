@@ -8,7 +8,7 @@ let handler = async (m, { conn, isROwner, command, text }) => {
     m.reply('Executing...')
     let o
     try {
-        o = await exec('cat plugins/' + text + '.js')
+        o = await exec('cd plugins/' + text + '.js')
     } catch (e) {
         o = e
     } finally {
