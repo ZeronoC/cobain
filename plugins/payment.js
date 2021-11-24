@@ -2,7 +2,7 @@ let handler = async m => m.reply(`
 *P α y m e n t*
 💸 GOPAY : scan pp a/n indra 
 
-💸 DANA : 082123021898 an indra 
+💸 DANA : 089653328114 an indra 
 
 💸 SHOPEEPAY : 089653328114 
 
