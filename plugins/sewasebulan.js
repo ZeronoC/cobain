@@ -1,5 +1,6 @@
 let handler = async m => m.reply(`
 *HARAP DIISI JIKA INGIN MENDAFTARKAN SEWA BOT 1 BULAN*
+
 Nama: 
 Link Grup: 
 Pembayaran: 
