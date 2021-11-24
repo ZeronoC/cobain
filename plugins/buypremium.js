@@ -7,9 +7,9 @@ Pembayaran:
 Teruskan pesan ini kepada owner untuk segera di selesaikan.
 NB: *Sertakan bukti transfer*
 `.trim()) // Tambah sendiri kalo mau
-handler.help = ['buypremium']
+handler.help = ['sewapremium']
 handler.tags = ['store']
-handler.command = /^(buypremium)$/i
+handler.command = /^(sewapremium)$/i
 
 handler.limit = false
 
