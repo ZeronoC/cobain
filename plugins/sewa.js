@@ -30,8 +30,8 @@ OVO: 082146176911
         buttonText: 'List Harga',
         description: kontol,
         sections:  [{title: "Silahkan di pilih", rows: [
-        {title: 'Run Bot RDP', description: "Rp20.000\nJasa Run Bot via RDP.", rowId:".buyrdp"},
-        {title: 'Premium', description: "Rp20.000\nDapatkan fitur Premium Permanent.", rowId:".buypremium"},
+        {title: 'Run Bot RDP', description: "Rp20.000\nJasa Run Bot via RDP.", rowId:".sewardp"},
+        {title: 'Premium', description: "Rp20.000\nDapatkan fitur Premium Permanent.", rowId:".sewapremium"},
         {title: 'Permanen', description: "Rp15.000\nSewa bot Permanen.", rowId:".sewapermanen"},
         {title: '1 Bulan', description: "Rp10.000\nSewa bot selama 1 bulan.", rowId:".sewasebulan"},
         {title: '1 Minggu', description: "Rp6.000\nSewa bot selama 1 minggu.", rowId:".sewaseminggu"},
