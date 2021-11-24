@@ -7,9 +7,9 @@ Pembayaran:
 Teruskan pesan ini kepada owner untuk segera di selesaikan.
 NB: *Sertakan bukti transfer*
 `.trim()) // Tambah sendiri kalo mau
-handler.help = ['buyrdp']
+handler.help = ['sewardp']
 handler.tags = ['store']
-handler.command = /^(buyrdp)$/i
+handler.command = /^(sewardp)$/i
 
 handler.limit = false
 
