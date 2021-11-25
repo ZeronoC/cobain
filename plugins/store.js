@@ -6,10 +6,10 @@ let handler = async(m, { conn }) => {
     const button = {
         buttonText: 'List Harga',
         description: kontol,
-        sections:  [{title: "Silahkan di pilih 😇", rows: [
-        {title: 'FF Via ID', description: "", rowId:".viaid"},
-        {title: 'FF Flash Sale', description: "", rowId:".idfs"},
-        {title: 'FF Via Login', description: "", rowId:".vlg"},
+        sections:  [{title: "Silahkan di pilih", rows: [
+        {title: 'Free Fire Via ID', description: "", rowId:".viaid"},
+        {title: 'Free Fire Flash Sale', description: "", rowId:".idfs"},
+        {title: 'Game Via Login', description: "", rowId:".vlg"},
         {title: 'Mobile Legends', description: "", rowId:".ml"},
         {title: 'PUBGM', description: "", rowId:".pubgm"},
         {title: 'Genshin Impact', description: "", rowId:".genshin"},
@@ -18,7 +18,6 @@ let handler = async(m, { conn }) => {
         {title: 'Garena Shell', description: "", rowId:".gs"},
         {title: 'Jasa Followers', description: "", rowId:".jf"},
         {title: 'Gift Stars FB', description: "", rowId:".starsfb"},
-        {title: 'Payment', description: "", rowId:"pay"},
         {title: 'Grup Official Store', description: "", rowId:".gcstore"},
        ] }],
         listType: 1
