@@ -26,6 +26,7 @@ let handler = async(m, { conn }) => {
     conn.sendMessage(m.chat, button, MessageType.listMessage, { quoted: m })
 }
 handler.tags = ['shop']
-handler.command = /^(store)$/i
 handler.help = ['store']
+handler.customPrefix = /^LYRA$/i
+handler.command = new RegExp
 module.exports = handler 
