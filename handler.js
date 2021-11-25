@@ -394,10 +394,22 @@ module.exports = {
               text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Selamat datang, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc ? String.fromCharCode(8206).repeat(4001) + groupMetadata.desc : '') :
                 (chat.sBye || this.bye || conn.bye || 'Sampai jumpa, @user!')).replace(/@user/g, '@' + user.split`@`[0])
               let wel = await new knights.Welcome()
+                .setUsername(this.getName(user))
+                .setGuildName(this.getName(jid))
+                .setGuildIcon(ppgc)
+                .setMemberCount(groupMetadata.participants.length)
                 .setAvatar(pp)
+                .setBackground("https://i.ibb.co/KhtRxwZ/dark.png")
+                .toAttachment()
 
               let lea = await new knights.Goodbye()
+                .setUsername(this.getName(user))
+                .setGuildName(this.getName(jid))
+                .setGuildIcon(ppgc)
+                .setMemberCount(groupMetadata.participants.length)
                 .setAvatar(pp)
+                .setBackground("https://i.ibb.co/KhtRxwZ/dark.png")
+                .toAttachment()
               this.sendButtonLoc(jid, action === 'add' ?wel.toBuffer() : lea.toBuffer(), text, watermark, 'Menu', '.menu', null, {
                 contextInfo: {
                   mentionedJid: [user]
@@ -425,7 +437,6 @@ module.exports = {
     if (chat.delete) return
     await this.sendButton(m.key.remoteJid, `
 Terdeteksi @${m.participant.split`@`[0]} telah menghapus pesan
-
 ketik *.on delete* untuk mematikan pesan ini
 `.trim(), watermark, 'Matikan Antidelete', ',on delete', m.message, {
       contextInfo: {
@@ -458,9 +469,7 @@ ketik *.on delete* untuk mematikan pesan ini
     if (!desc) return
     let caption = `
     @${descOwner.split`@`[0]} telah mengubah deskripsi grup.
-
     ${desc}
-
     ketik *.off desc* untuk mematikan pesan ini
         `.trim()
     this.sendButton(jid, caption, watermark, 'Matikan Deskripsi', ',off desc', { contextInfo: { mentionedJid: this.parseMention(caption) } })
