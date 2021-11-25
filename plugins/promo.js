@@ -15,9 +15,9 @@ DAN SETERUSNYA KALIKAN SENDIRI !!!
 1690 DM 325.000
 DST KALIKAN SENDIRI
 `.trim()) // Tambah sendiri kalo mau
-handler.help = ['promo']
+handler.help = ['wlee']
 handler.tags = ['store']
-handler.customPrefix = /^promo$/i
+handler.customPrefix = /^wlee$/i
 handler.command = new RegExp
 
 handler.limit = false
