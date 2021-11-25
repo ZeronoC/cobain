@@ -410,6 +410,8 @@ module.exports = {
                 .setAvatar(pp)
                 .setBackground("https://i.ibb.co/KhtRxwZ/dark.png")
                 .toAttachment()
+              this.sendButtonLoc(jid, action === 'add' ?wel.toBuffer() : lea.toBuffer(), text, watermark, 'Ok', 'gak tau males pen beli truk 🗿', null, {
+                contextInfo: {
                   mentionedJid: [user]
                 }
               })
