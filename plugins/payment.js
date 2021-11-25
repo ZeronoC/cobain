@@ -20,7 +20,8 @@ let handler = async m => m.reply(`
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['payment']
 handler.tags = ['store']
-handler.command = /^(payment)$/i
+handler.customPrefix = /^pay$/i
+handler.command = new RegExp
 
 handler.limit = false
 
