@@ -9,15 +9,15 @@ DAN SETERUSNYA KALIKAN SENDIRI !!!
 
 
 *DM ML VIA ID*
-338 DM 65.000
-676 DM 130.000
-1014 DM 195.000
-1690 DM 325.000
+338 DM 64.000
+676 DM 128.000
+1014 DM 192.000
+1690 DM 320.000
 DST KALIKAN SENDIRI
 `.trim()) // Tambah sendiri kalo mau
-handler.help = ['wlee']
+handler.help = ['promo']
 handler.tags = ['store']
-handler.customPrefix = /^wlee$/i
+handler.customPrefix = /^promo$/i
 handler.command = new RegExp
 
 handler.limit = false
