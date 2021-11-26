@@ -6,7 +6,7 @@ let handler = async(m, { conn }) => {
     const button = {
         buttonText: 'List Harga',
         description: kontol,
-        sections:  [{title: "Silahkan di pilih", rows: [
+        sections:  [{title: "Menu LYRA Store", rows: [
         {title: 'Free Fire Via ID', description: "", rowId:".viaid"},
         {title: 'Free Fire Flash Sale', description: "", rowId:".idfs"},
         {title: 'Game Via Login', description: "", rowId:".vlg"},
