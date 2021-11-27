@@ -21,7 +21,7 @@ let handler = async (m, { conn }) => await conn.sendButtonImg(m.chat, await (awa
 *HARAP BACA SALAH TF JANGAN SALAHIN ADMIN!!*
 
 
-`.trim(), 'ini weem yg buat @rasel.ganz jangan di hapus lah banh:(', 'Ini Button banh', '@rasel.ganz', m)
+`.trim(), '', 'pay', '@rasel.ganz', m)
 
 handler.help = ['pay']
 handler.tags = ['store']
