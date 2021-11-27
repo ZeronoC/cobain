@@ -3,7 +3,7 @@ let handler = async m => m.reply(`
 
 *DONE ALL*
 
-*TERIMAKASIH ATAS KUNJUNGANNYA *
+*TERIMAKASIH ATAS KUNJUNGANNYA*
 
 *© Lyra*
 `.trim()) // Tambah sendiri kalo mau
