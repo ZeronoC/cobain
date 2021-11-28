@@ -19,11 +19,18 @@ Nokos linkaja : 700p
 Nokos tokopedia : 550p
 Nokos flip : 550p
 
+Syarat dan Ketentuan
+
+- nomor sekali verif
+- kode bisa minta 2x kali kalo yg pertama gk bisa
+- kalo udh order lalu udh dikasih nokosnya harus langsung di verifikasi
+- garansi tiga hari kalo nokos rusak/tiba-tiba diverif orang lain
+
 
 - Nokos lainnya bisa tanyakan
-- - Harga mumer
+- Harga mumer
 - Order sabar
-- - Bee smart buyer
+- Bee smart buyer
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['nokos']
 handler.tags = ['store']
