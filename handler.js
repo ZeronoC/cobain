@@ -375,7 +375,7 @@ module.exports = {
       if (opts['autoread']) await this.chatRead(m.chat).catch(() => { })
     }
   },
-  async participantsUpdate({ jid, participants, action }) {
+ async participantsUpdate({ jid, participants, action }) {
     let chat = global.db.data.chats[jid] || {}
     let text = ''
     switch (action) {
@@ -385,32 +385,13 @@ module.exports = {
           let groupMetadata = await this.groupMetadata(jid)
           for (let user of participants) {
             let pp = global.ppkosong
-            let ppgc = global.ppkosong
             try {
-              pp = await uploadImage(await (await fetch(await this.getProfilePicture(user))).buffer())
-              ppgc = await uploadImage(await (await fetch(await this.getProfilePicture(jid))).buffer())
+              pp = await (await fetch(await this.getProfilePicture(user))).buffer()
             } catch (e) {
             } finally {
               text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Selamat datang, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc ? String.fromCharCode(8206).repeat(4001) + groupMetadata.desc : '') :
                 (chat.sBye || this.bye || conn.bye || 'Sampai jumpa, @user!')).replace(/@user/g, '@' + user.split`@`[0])
-              let wel = await new knights.Welcome()
-                .setUsername(this.getName(user))
-                .setGuildName(this.getName(jid))
-                .setGuildIcon(ppgc)
-                .setMemberCount(groupMetadata.participants.length)
-                .setAvatar(pp)
-                .setBackground("https://i.ibb.co/KhtRxwZ/dark.png")
-                .toAttachment()
-
-              let lea = await new knights.Goodbye()
-                .setUsername(this.getName(user))
-                .setGuildName(this.getName(jid))
-                .setGuildIcon(ppgc)
-                .setMemberCount(groupMetadata.participants.length)
-                .setAvatar(pp)
-                .setBackground("https://i.ibb.co/KhtRxwZ/dark.png")
-                .toAttachment()
-              this.sendButtonLoc(jid, action === 'add' ?wel.toBuffer() : lea.toBuffer(), text, watermark, 'Ok', 'gak tau males pen beli truk 🗿', null, {
+              this.sendButtonLoc(jid, pp, text, watermark, 'Ok', 'gak tau males pen beli truk 🗿', null, {
                 contextInfo: {
                   mentionedJid: [user]
                 }
