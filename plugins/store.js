@@ -9,7 +9,7 @@ let handler = async(m, { conn }) => {
         sections:  [{title: "Menu LYRA Store", rows: [
         {title: 'Free Fire Via ID', description: "", rowId:".viaid"},
         {title: 'Free Fire Flash Sale', description: "", rowId:".idfs"},
-        {title: 'Game Via Login', description: "", rowId:".vlg"},
+        {title: 'Free Fire Via Login', description: "", rowId:".vlg"},
         {title: 'Mobile Legends', description: "", rowId:".ml"},
         {title: 'PUBGM', description: "", rowId:".pubgm"},
         {title: 'Genshin Impact', description: "", rowId:".genshin"},
