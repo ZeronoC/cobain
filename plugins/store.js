@@ -16,7 +16,6 @@ let handler = async(m, { conn }) => {
         {title: 'CODM', description: "", rowId:".codm"},
         {title: 'Zepeto', description: "", rowId:".zepeto"},
         {title: 'Garena Shell', description: "", rowId:".gs"},
-        {title: 'All Nokos', description: "", rowId:".nokos"},
         {title: 'Jasa Followers', description: "", rowId:".jf"},
         {title: 'Gift Stars FB', description: "", rowId:".starsfb"},
         {title: 'Grup Official Store', description: "", rowId:".gcstore"},
