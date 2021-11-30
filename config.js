@@ -40,14 +40,14 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'Hi'
-global.author = 'Zee'
+global.packname = 'Hi♥️'
+global.author = 'فيرا'
 
 global.wait = '*Tunggu sebentar ya...*'
 global.eror = 'Maaf terjadi kesalahan'
 global.fla = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text='
-global.watermark = '© Zee' //change the watermark (beberapa harus manual)
-global.thanks = '© Zee'
+global.watermark = '© فيرا' //change the watermark (beberapa harus manual)
+global.thanks = '© فيرا'
 global.anu = `Thanks to:
 •Allah swt
 •Nurutomo
