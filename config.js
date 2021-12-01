@@ -46,7 +46,7 @@ global.author = 'فيرا'
 global.wait = '*Tunggu sebentar ya...*'
 global.eror = 'Maaf terjadi kesalahan'
 global.fla = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text='
-global.watermark = '© Zee' //change the watermark (beberapa harus manual)
+global.watermark = '${week} ${weton}, ${date}\n${time}' //change the watermark (beberapa harus manual)
 global.thanks = '© Zee'
 global.anu = `Thanks to:
 •Allah swt
