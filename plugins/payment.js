@@ -4,7 +4,7 @@ let handler = async (m, { conn }) => await conn.sendButtonImg(m.chat, await (awa
 
 ❀ GOPAY : scan qr a/n Y S H
 
-❀ DANA : 082119829712 an Castum
+❀ DANA : 089653328114 an indra
 
 ❀ SHOPEEPAY : 089653328114 
 
