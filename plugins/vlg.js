@@ -1,6 +1,6 @@
 let handler = async m => m.reply(`
 *LIST HARGA FREE FIRE VIA LOGIN*
-_RATE 11,5
+_RATE 11,5_
 
 
 *Log Google Minimal 5$*
