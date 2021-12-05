@@ -3,7 +3,7 @@ let handler = async m => m.reply(`
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['gcstore']
 handler.tags = ['store']
-handler.customPrefix = /^sold$/i
+handler.customPrefix = /^gs sold$/i
 handler.command = new RegExp
 
 handler.limit = false
