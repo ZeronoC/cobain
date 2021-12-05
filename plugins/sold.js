@@ -1,5 +1,5 @@
 let handler = async m => m.reply(`
-*SOLD YA SAYANG, LAIN KALI FAST RESPON*
+*SOLD YA SAYANG, LAIN KALI FAST RESPON☺️*
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['gcstore']
 handler.tags = ['store']
