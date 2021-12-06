@@ -46,13 +46,13 @@ global.author = 'فيرا'
 global.wait = '*Tunggu sebentar ya...*'
 global.eror = 'Maaf terjadi kesalahan'
 global.fla = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text='
-global.watermark = '© Zee' //change the watermark (beberapa harus manual)
+global.watermark = '${week} ${weton}, ${date}\n${time}' //change the watermark (beberapa harus manual)
 global.thanks = '© Zee'
 global.anu = `Thanks to:
 •Allah swt
 •Nurutomo
 •Ariffb
-•Ray (partner
+•Ray (partner)
 •Rasel (mybro) 
 •Gw (owner
 •Penyedia Layanan API
@@ -74,6 +74,24 @@ global.sumberurl = 'https://instagram.com/yrdan_21'
 global.deskripsiurl = 'Saya adalah Bot WhatsApp.'
 
 global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
+
+let weton = ['Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi'][Math.floor(d / 84600000) % 5]
+    let week = d.toLocaleDateString(locale, { weekday: 'long' })
+    let date = d.toLocaleDateString(locale, {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    })
+    let dateIslamic = Intl.DateTimeFormat(locale + '-TN-u-ca-islamic', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    }).format(d)
+    let time = d.toLocaleTimeString(locale, {
+      hour: 'numeric',
+      minute: 'numeric',
+      second: 'numeric'
+
 
 let chalk = require('chalk')
 let file = require.resolve(__filename)
