@@ -1,4 +1,4 @@
-let handler = async m => m.reply(`
+let handler = async m => m.reply(m.chat,`
 *LIST HARGA PUBG VIA ID*
 *_RATE 0.89_*
 
@@ -15,7 +15,7 @@ let handler = async m => m.reply(`
 
 *PROSES 1-30 MENIT*
 *SERTAKAN BUKTI TRANSFER!*
-`.trim()) // Tambah sendiri kalo mau
+`,false) // Tambah sendiri kalo mau
 handler.help = ['pubgm']
 handler.tags = ['store']
 handler.command = /^(pubgm)$/i
