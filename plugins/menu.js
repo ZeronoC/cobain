@@ -395,7 +395,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 }
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.customPrefix = /^zeemenu|help|?$/i
+handler.customPrefix = /^zeemenu$/i
 handler.command = new RegExp
 handler.owner = false
 handler.mods = false
