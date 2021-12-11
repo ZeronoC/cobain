@@ -26,10 +26,7 @@ const defaultMenu = {
   header: '╭━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━╮\n┃╭┈─────────────⩵꙰ཱི࿐\n┃╰── %category ──➤ ↶↷\n╰•͙✩̣̣̣̣ ',
   body: '⁙┃〲 %cmd %islimit %isPremium',
   footer: '⁙╰•°°°🕊°°°°°🕊°°°°°°🕊°°°°°°°°\n',
-  after: `
-*%npmname@^%version*
-${'```%npmdesc```'}
-`,
+  after: `*WhatsApp Bot*`,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let tags
