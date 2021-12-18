@@ -1,4 +1,4 @@
-let handler = async m => m.reply(`
+let handler = async m => conn.reply(m.chat, `
 *CLOSE YA...*
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['jf']
