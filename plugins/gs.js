@@ -1,6 +1,6 @@
-let handler = async m => m.reply(`
+let handler = async m => conn.reply(m.chat, `
 *TANYAKAN STOK!!*
-**HARGA RANDOM*
+*HARGA RANDOM*
 
 
 *˖˚𖠧 33 GS 8.600 - 9.000*
