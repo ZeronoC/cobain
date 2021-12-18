@@ -3,7 +3,7 @@ https://chat.whatsapp.com/C0QvHiJp5hsHvoN5qcYGnJ
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['gcstore']
 handler.tags = ['store']
-handler.command = /^(gcstore)$/i
+handler.command = /^(gcstore2)$/i
 
 handler.limit = false
 
