@@ -1,4 +1,4 @@
-let handler = async m => m.reply(`
+let handler = async m => conn.reply(m.chat, `
 *fIᥲsh sᥲᥣᥱ*
 *KHUSUS MUMPUNG RATE TURUN*
 *ORDER SEBELUM RATE NAIK LAGI*
