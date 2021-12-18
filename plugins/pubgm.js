@@ -1,4 +1,4 @@
-let handler = async m => m.reply(m.chat,`
+let handler = async m => conn.reply(m.chat, `
 *LIST HARGA PUBG VIA ID*
 *_RATE 0.89_*
 
