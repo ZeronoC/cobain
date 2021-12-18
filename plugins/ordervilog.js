@@ -1,4 +1,4 @@
-let handler = async m => m.reply(`
+let handler = async m => conn.reply(m.chat, `
 Isi data dibawah 
 
 WAJIB DIISI BIAR TIDAK SALAH KIRIM DMNYA
