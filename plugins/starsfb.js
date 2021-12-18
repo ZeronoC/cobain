@@ -1,4 +1,4 @@
-let handler = async m => m.reply(`
+let handler = async m => conn.reply(m.chat, `
 *GIFT STARS FB*
 *_RATE 12,4_
 18 STARS (1$) = 12.400
