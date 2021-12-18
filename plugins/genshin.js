@@ -1,4 +1,4 @@
-let handler = async m => m.reply(`
+let handler = async m => conn.reply(m.chat, `
 Genshin impact Via iD‼️
 60 GS 14.000
 330 GS 68.000
