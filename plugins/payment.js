@@ -1,5 +1,5 @@
 let fetch = require('node-fetch')
-let handler = async (m, { conn }) => await conn.sendFile(m.chat, await (await fetch('https://telegra.ph/file/fcc6abc1a05e9e5d5c6c7.jpg')).buffer(), `
+let handler = async (m, { conn }) => await conn.sendImg(m.chat, await (await fetch('https://telegra.ph/file/fcc6abc1a05e9e5d5c6c7.jpg')).buffer(), `
 *P α y m e n t*
 
 ❀ GOPAY : scan qr a/n Y S H
